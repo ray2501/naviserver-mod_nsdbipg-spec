@@ -37,6 +37,12 @@ make DESTDIR=%buildroot install NAVISERVER=/var/lib/naviserver
 %clean
 rm -rf %buildroot
 
+%post -n naviserver-mod_nsdbipg
+/sbin/ldconfig
+
+%postun -n naviserver-mod_nsdbipg
+/sbin/ldconfig
+
 %files
 %defattr(-,nsadmin,nsadmin,-)
 /var/lib/naviserver/bin/nsdbipg.so

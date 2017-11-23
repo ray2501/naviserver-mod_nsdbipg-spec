@@ -1,0 +1,11 @@
+--- nsdbipg.c.orig	2017-11-23 16:18:26.760155764 +0800
++++ nsdbipg.c	2017-11-23 16:18:52.448156524 +0800
+@@ -29,7 +29,7 @@
+  */
+ 
+ #include "nsdbidrv.h"
+-#include "libpq-fe.h"
++#include "pgsql/libpq-fe.h"
+ 
+ 
+ 

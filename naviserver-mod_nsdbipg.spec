@@ -15,6 +15,8 @@ BuildRequires:  naviserver-devel
 BuildRequires:  naviserver-mod_nsdbi
 BuildRequires:  naviserver-mod_nsdbi-devel
 BuildRequires:  postgresql-devel
+Requires:       naviserver-mod_nsdbi
+Requires:       naviserver
 Source0:        %{name}-%{version}.tar.gz
 Patch0:         nsdbipg.c.patch
 BuildRoot:      %{_tmppath}/%{name}-%{version}-build

@@ -5,7 +5,7 @@
 Summary:        NaviServer nsdbipg module
 Name:           naviserver-mod_nsdbipg
 Version:        0.3
-Release:        0
+Release:        1
 License:        MPL-1.1
 Group:          Productivity/Networking/Web/Servers
 Url:            http://bitbucket.org/naviserver/nsdbipg
